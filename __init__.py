@@ -1,1 +1,1 @@
-from test_libreria import test_libreria
+from test_libreria import *
