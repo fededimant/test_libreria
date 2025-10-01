@@ -1,1 +1,1 @@
-__version__ = "0.0.46"
+from test_libreria import test_libreria
