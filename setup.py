@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='test_libreria', # Nombre de tu paquete
@@ -8,7 +8,5 @@ setup(
     author_email='fededimant@hotmail.com',
     url='https://github.com/fededimant/test_libreria', # URL del repositorio
     packages=['test_libreria'], # Encuentra automáticamente los paquetes
-    install_requires=[ # Lista de dependencias externas
-        'pandas',
-    ],
+  
 )
